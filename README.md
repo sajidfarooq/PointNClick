@@ -2,8 +2,11 @@ PointNClick
 ===========
 
 Complete documentation is provided in the “Documentation” folder inside the main project folder. Click “classes” to see a list of the classes.
+
 I strived to create a generic “engine” rather than a specific game, hence the throw-away graphics. The focus was on the code rather than the graphics.
----------------------
+
+<=======================>
+
 GameXML is the Model class that contains most of the game state loaded from XML.
 
 GameController is the controller for GameXML as well as all other controllers. It doesn’t have (or need) a specific view on its own. 
