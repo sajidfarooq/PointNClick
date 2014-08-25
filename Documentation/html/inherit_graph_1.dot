@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="InventoryItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_inventory_item.html",tooltip="Stores the name, and optionally a path to the icon for an item that is currently in the inventory ..."];
+}

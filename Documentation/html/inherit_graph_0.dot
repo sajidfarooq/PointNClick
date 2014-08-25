@@ -1,0 +1,21 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="MonoBehaviour",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="GameController",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_game_controller.html",tooltip="The brains behind the entire Game. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="InputManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_input_manager.html",tooltip="A generic handler for input. Supports touch and mouse, as well as down, up and drag events It tells t..."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="InventoryController",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_inventory_controller.html",tooltip="The Inventory controller, in the classic MVC pattern. This is the brains behind the Inventory..."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="InventoryView",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_inventory_view.html",tooltip="The &quot;View&quot; for the Inventory, according to the classic MVC pattern. This takes care of the visual asp..."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Item",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_item.html",tooltip="The most basic element in a scene. By default, this is &quot;observable&quot; in the game. I.e, when the user clicks on it, its &quot;Info&quot; will be displayed in the console. All other elements in the scene inherit from this class. "];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="NavigationItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_navigation_item.html",tooltip="Inherits from &quot;Item&quot;. Enhances Item by allowing a click to teleport the user to another scene..."];
+  Node6 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="PickableItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_pickable_item.html",tooltip="Inherits from &quot;Item&quot;. It enhances Item by making it &quot;pickable&quot;. "];
+}

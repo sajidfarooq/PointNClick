@@ -1,0 +1,296 @@
+<GameXML>
+<Scene id = "Office 1">
+	<Item>
+		<Name>ItemName</Name>
+		<ResourcePath>Office1</ResourcePath>
+		<Info>Fresh paint drips from the walls. Its a new office...</Info>
+		<Position>
+			<x> 0.0 </x>
+			<y> 0.0 </y>
+			<z> 0.0 </z>
+		</Position>
+		<Rotation>
+			<x> 0.0 </x>
+			<y> 0.0 </y>
+			<z> 0.0 </z>
+		</Rotation>
+		<Scale>
+			<x> 1.0 </x>
+			<y> 1.0 </y>
+			<z> 1.0 </z>
+		</Scale>
+	</Item>
+	<PickableItem>
+		<Name>Key</Name>
+		<ResourcePath>SpecialItem</ResourcePath>
+		<Info>A key. Finally... </Info>
+		<RequiredItem>None</RequiredItem>
+		<PickedMessage>You picked up the key</PickedMessage>
+		<IsConsumed>false</IsConsumed>
+		<Position>
+			<x> 0.0 </x>
+			<y> 0.0 </y>
+			<z> 0.0 </z>
+		</Position>
+		<Rotation>
+			<x> 0.0 </x>
+			<y> 0.0 </y>
+			<z> 0.0 </z>
+		</Rotation>
+		<Scale>
+			<x> 1.0 </x>
+			<y> 1.0 </y>
+			<z> 1.0 </z>
+		</Scale>
+	</PickableItem>
+	<PickableItem>
+		<Name>LockedBox</Name>
+		<ResourcePath>LockedBox</ResourcePath>
+		<Info>A locked box. Perhaps its hiding something important... </Info>
+		<RequiredItem>Hammer</RequiredItem>
+		<PickedMessage>You broke the box and discovered something inside</PickedMessage>
+		<IsConsumed>false</IsConsumed>
+		<Position>
+			<x> 0.0 </x>
+			<y> 0.0 </y>
+			<z> 0.0 </z>
+		</Position>
+		<Rotation>
+			<x> 0.0 </x>
+			<y> 0.0 </y>
+			<z> 0.0 </z>
+		</Rotation>
+		<Scale>
+			<x> 1.0 </x>
+			<y> 1.0 </y>
+			<z> 1.0 </z>
+		</Scale>
+	</PickableItem>
+	<NavigationItem>
+		<Name>ItemName</Name>
+		<ResourcePath>ToLobby</ResourcePath>
+		<Info>Click to go to the lobby</Info>
+		<SceneName>Lobby</SceneName>
+		<Position>
+			<x> 0.0 </x>
+			<y> 0.0 </y>
+			<z> 0.0 </z>
+		</Position>
+		<Rotation>
+			<x> 0.0 </x>
+			<y> 0.0 </y>
+			<z> 0.0 </z>
+		</Rotation>
+		<Scale>
+			<x> 1.0 </x>
+			<y> 1.0 </y>
+			<z> 1.0 </z>
+		</Scale>
+	</NavigationItem>
+
+</Scene>
+
+<Scene id ="Office 2">
+	<Item>
+		<Name>ItemName</Name>
+		<ResourcePath>Office2</ResourcePath>
+		<Info>This room reminds me of something...Nothing.</Info>
+		<Position>
+			<x> 0.0 </x>
+			<y> 0.0 </y>
+			<z> 0.0 </z>
+		</Position>
+		<Rotation>
+			<x> 0.0 </x>
+			<y> 0.0 </y>
+			<z> 0.0 </z>
+		</Rotation>
+		<Scale>
+			<x> 1.0 </x>
+			<y> 1.0 </y>
+			<z> 1.0 </z>
+		</Scale>
+	</Item>
+	<PickableItem>
+		<Name>Hammer</Name>
+		<ResourcePath>Hammer</ResourcePath>
+		<Info>Looks like an ordinary hammer.</Info>
+		<RequiredItem>None</RequiredItem>
+		<PickedMessage>You are carrying a hammer.</PickedMessage>
+		<IsConsumed>false</IsConsumed>
+		<Position>
+			<x> 0.0 </x>
+			<y> 0.0 </y>
+			<z> 0.0 </z>
+		</Position>
+		<Rotation>
+			<x> 0.0 </x>
+			<y> 0.0 </y>
+			<z> 0.0 </z>
+		</Rotation>
+		<Scale>
+			<x> 1.0 </x>
+			<y> 1.0 </y>
+			<z> 1.0 </z>
+		</Scale>
+	</PickableItem>
+
+	<NavigationItem>
+		<Name>LobbyNavButton</Name>
+		<ResourcePath>ToLobby</ResourcePath>
+		<Info>Go to the Lobby</Info>
+		<SceneName>Lobby</SceneName>
+		<Position>
+			<x> 0.0 </x>
+			<y> 0.0 </y>
+			<z> 0.0 </z>
+		</Position>
+		<Rotation>
+			<x> 0.0 </x>
+			<y> 0.0 </y>
+			<z> 0.0 </z>
+		</Rotation>
+		<Scale>
+			<x> 1.0 </x>
+			<y> 1.0 </y>
+			<z> 1.0 </z>
+		</Scale>
+	</NavigationItem>
+
+</Scene>
+
+<Scene id = "Lobby">
+	<Item>
+		<Name>ItemName</Name>
+		<ResourcePath>Lobby</ResourcePath>
+		<Info>The walls are too high. Otherwise I could scale them...</Info>
+		<Position>
+			<x> 0.0 </x>
+			<y> 0.0 </y>
+			<z> 0.0 </z>
+		</Position>
+		<Rotation>
+			<x> 0.0 </x>
+			<y> 0.0 </y>
+			<z> 0.0 </z>
+		</Rotation>
+		<Scale>
+			<x> 1.0 </x>
+			<y> 1.0 </y>
+			<z> 1.0 </z>
+		</Scale>
+	</Item>
+	<PickableItem>
+		<Name>Door</Name>
+		<ResourcePath>Door</ResourcePath>
+		<Info>This is the exit, but its locked…</Info>
+		<RequiredItem>Key</RequiredItem>
+		<PickedMessage>You unlocked the door.</PickedMessage>
+		<IsConsumed>false</IsConsumed>
+		<Position>
+			<x> 0.0 </x>
+			<y> 0.0 </y>
+			<z> 0.0 </z>
+		</Position>
+		<Rotation>
+			<x> 0.0 </x>
+			<y> 0.0 </y>
+			<z> 0.0 </z>
+		</Rotation>
+		<Scale>
+			<x> 1.0 </x>
+			<y> 1.0 </y>
+			<z> 1.0 </z>
+		</Scale>
+	</PickableItem>
+
+	<NavigationItem>
+		<Name>Door</Name>
+		<ResourcePath>ExitDoor</ResourcePath>
+		<Info>The way out!</Info>
+		<SceneName>Exit</SceneName>
+		<Position>
+			<x> 0.0 </x>
+			<y> 0.0 </y>
+			<z> 0.0 </z>
+		</Position>
+		<Rotation>
+			<x> 0.0 </x>
+			<y> 0.0 </y>
+			<z> 0.0 </z>
+		</Rotation>
+		<Scale>
+			<x> 1.0 </x>
+			<y> 1.0 </y>
+			<z> 1.0 </z>
+		</Scale>
+	</NavigationItem>
+	<NavigationItem>
+		<Name>DoorOffice1</Name>
+		<ResourcePath>ToOffice1</ResourcePath>
+		<Info>This leads to the office. </Info>
+		<SceneName>Office 1</SceneName>
+		<Position>
+			<x> 0.0 </x>
+			<y> 0.0 </y>
+			<z> 0.0 </z>
+		</Position>
+		<Rotation>
+			<x> 0.0 </x>
+			<y> 0.0 </y>
+			<z> 0.0 </z>
+		</Rotation>
+		<Scale>
+			<x> 1.0 </x>
+			<y> 1.0 </y>
+			<z> 1.0 </z>
+		</Scale>
+	</NavigationItem>
+	<NavigationItem>
+		<Name>DoorOffice2</Name>
+		<ResourcePath>ToOffice2</ResourcePath>
+		<Info>This leads to office 2. </Info>
+		<SceneName>Office 2</SceneName>
+		<Position>
+			<x> 0.0 </x>
+			<y> 0.0 </y>
+			<z> 0.0 </z>
+		</Position>
+		<Rotation>
+			<x> 0.0 </x>
+			<y> 0.0 </y>
+			<z> 0.0 </z>
+		</Rotation>
+		<Scale>
+			<x> 1.0 </x>
+			<y> 1.0 </y>
+			<z> 1.0 </z>
+		</Scale>
+	</NavigationItem>
+
+</Scene>
+
+<Scene id ="Exit">
+	<Item>
+		<Name>ItemName</Name>
+		<ResourcePath>ExitScene</ResourcePath>
+		<Info>Some text here </Info>
+		<Position>
+			<x> 0.0 </x>
+			<y> 0.0 </y>
+			<z> 0.0 </z>
+		</Position>
+		<Rotation>
+			<x> 0.0 </x>
+			<y> 0.0 </y>
+			<z> 0.0 </z>
+		</Rotation>
+		<Scale>
+			<x> 1.0 </x>
+			<y> 1.0 </y>
+			<z> 1.0 </z>
+		</Scale>
+	</Item>
+
+</Scene>
+</GameXML>
