@@ -17,3 +17,9 @@ InputManager is a generic “input” handling layer that unifies input (touch, 
 
 Item,PickableItem, and NavigationItem are used the various kinds of objects that the user can interact with in the scene.
 SaveLoad is a helper class that manages the saving/loading for the whole engine. It is Static and accessible from anywhere. It doesn’t have any dependencies, and other classes are encapsulated from it.
+
+============
+INSTALLATION
+============
+
+Simply pull the project and open the folder in Unity 3D.
